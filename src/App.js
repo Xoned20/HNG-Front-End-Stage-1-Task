@@ -1,11 +1,11 @@
 import React from "react"
 import "./style.css"
-import Main from "./components/Main"
+import Stage1 from "./components/Stage1"
 
 function App(){
     return(
         <div>
-            <Main/>
+            <Stage1/>
         </div>
     )
 }
