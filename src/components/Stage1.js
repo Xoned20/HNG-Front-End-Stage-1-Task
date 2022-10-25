@@ -5,7 +5,7 @@ import Github from "../images/github.png"
 
 function Stage1() {
     return(
-        <div>
+        <div className="stage1">
             <div className="main__section">
                 {/* profile section */}
                 <section className="profile">
@@ -34,19 +34,20 @@ function Stage1() {
                 </section>
                 {/* links section ends */}
             </div>
-
             
             <div className="social">
                 <div className="social__container">
                     <div className="social__content">
-                        <img
-                        src={Slack}
-                        alt=""
-                        />
-                        <img
-                        src={Github}
-                        alt=""
-                        />
+                        <div className="social__icon">
+                            <img
+                            src={Slack}
+                            alt=""
+                            />
+                            <img
+                            src={Github}
+                            alt=""
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
