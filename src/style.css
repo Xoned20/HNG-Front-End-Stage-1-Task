@@ -7,13 +7,10 @@ body {
 }
 
 .main__section {
-    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px 32px;
     gap: 32px;
-    width: 1216px;
-    height: 774px;
 }
 
 .profile {
@@ -111,7 +108,6 @@ button:hover {
 }
 
 .social__container {
-    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px 32px;
@@ -119,7 +115,6 @@ button:hover {
 }
 
 .social__content {
-    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;

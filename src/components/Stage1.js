@@ -28,7 +28,7 @@ function Stage1() {
                     <button id="btn__zuri"><a href="https://training.zuri.team/">Twitter Link</a></button>
                     <button><a>Zuri Team</a></button>
                     <button id="books"><a href="http://books.zuri.team/">Zuri Books</a></button>
-                    <button id="book__python"><a>Python Books</a></button>
+                    <button id="book__python"><a href="https://books.zuri.team/python-for-beginners?ref_id=">Python Books</a></button>
                     <button id="pitch"><a href="https://background.zuri.team/">Background Check for Coders</a></button>
                     <button id="book__design"><a href="https://books.zuri.team/design-rules">Design Books</a></button>
                 </section>
