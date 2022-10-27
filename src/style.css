@@ -128,3 +128,36 @@ button:hover {
     padding: 0px;
     gap: 24px;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0px;
+    gap: 64px;
+    left: 0px;
+    top: 998px;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 32px;
+    gap: 32px;
+    width: 1280px;
+    height: 64px;
+}
+
+.footer__content {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px 0px;
+    gap: 32px;
+    width: 1216px;
+    height: 64px;
+    border-top: 1px solid #EAECF0;
+}
