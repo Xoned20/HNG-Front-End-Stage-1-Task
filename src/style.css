@@ -1,12 +1,8 @@
 .Stage1Web {
-    position: relative;
-    width: 1440px;
-    height: 1158px;
     background: #FFFFFF;
 }
 
 .stage1 {
-    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,7 +39,7 @@
 }
 
 .icon {
-    position: absolute;
+    display: flex;
     left: 12.5%;
     right: 11.53%;
     top: 14.95%;
@@ -179,3 +175,189 @@ button:hover {
     height: 64px;
     border-top: 1px solid #EAECF0;
 }
+
+@media screen and (max-width: 760px) {
+    .Stage1Web {
+        background: #FFFFFF;
+        width: 375px;
+        height: 1088px;
+        overflow-y: scroll;
+    }
+    
+    .stage1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 64px 0px 32px;
+        gap: 24px;
+    }
+    
+    .main__section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 16px;
+        gap: 32px;
+    }
+    
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+        isolation: isolate;
+    }
+    
+    #profile__img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        width: 88px;
+        height: 88px;
+    }
+    
+    .icon {
+        width: 40px;
+        height: 40px;
+        right: 0px;
+        top: -20px;
+        border: 1.66667px solid #98A2B3;
+    }
+    
+    
+    #twitter {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #101828;
+    }
+    
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+    }
+    
+    button {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 32px;
+        gap: 8px;
+        width: 343px;
+        height: 68px;
+        background: #EAECF0;
+        border: 1px solid #EAECF0;
+        border-radius: 8px;
+    }
+    
+    a {
+        width: 79px;
+        height: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #101828;
+        text-decoration: none;
+    }
+    
+    button:hover {
+        gap: 12px;
+        left: 16px;
+        top: 108px;
+        background: #D0D5DD;
+        border: 1px solid #D0D5DD;
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    }
+    
+    .social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 24px 0px;
+        gap: 64px;
+        background: #ffffff;
+        width: 375px;
+        height: 72px;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    
+    .social__container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 16px;
+        gap: 32px;
+        width: 375px;
+        height: 24px;
+    }
+    
+    .social__content {
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        width: 343px;
+        height: 24px;
+    }
+    
+    .social__icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+    }
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px 0px;
+        gap: 64px;
+        width: 375px;
+        height: 196px;
+        left: 0px;
+        top: 892px;
+    }
+    
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 16px;
+        gap: 32px;
+        width: 375px;
+        height: 132px;
+    }
+    
+    .footer__content {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 32px 0px 0px;
+        gap: 16px;
+        width: 343px;
+        height: 132px;
+        border-top: 1px solid #EAECF0;
+    }
+  }
