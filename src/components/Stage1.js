@@ -22,11 +22,17 @@ function Stage1() {
                         <p id="slack">
                         {/* Xoned */}
                         </p>
-                        <img
-                        className="icon"
-                        src={Icon}
-                        alt=""
-                        />
+                        <div className="shareButton">
+                            <div className="shareContent">
+                                <div className="share">
+                                    <img
+                                        className="icon"
+                                        src={Icon}
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                        </div>   
                     </section>
                     {/* profile section ends */}
 

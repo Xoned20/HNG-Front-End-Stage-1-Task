@@ -38,13 +38,41 @@
     z-index: 0;
 }
 
-.icon {
+.shareButton{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 208px;
+    background: #FFFFFF;
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+}
+
+.shareContent {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 15%;
+    bottom: 15%;
+    border-radius: 12px;
+}
+
+.share {
+    width: 20px;
+    height: 20px;
+}
+
+.icon {
+    position: absolute;
     left: 12.5%;
     right: 11.53%;
     top: 14.95%;
     bottom: 14.95%;
-    border: 1.66667px solid #98A2B3;
 }
 
 
