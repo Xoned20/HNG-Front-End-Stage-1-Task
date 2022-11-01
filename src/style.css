@@ -190,6 +190,8 @@ button:hover {
         align-items: center;
         padding: 64px 0px 32px;
         gap: 24px;
+        width: 375px;
+        height: 892px;
     }
     
     .main__section {
@@ -198,6 +200,8 @@ button:hover {
         align-items: center;
         padding: 0px 16px;
         gap: 32px;
+        width: 375px;
+        height: 700px;
     }
     
     .profile {
@@ -207,6 +211,8 @@ button:hover {
         padding: 0px;
         gap: 24px;
         isolation: isolate;
+        width: 343px;
+        height: 140px;
     }
     
     #profile__img {
@@ -244,6 +250,8 @@ button:hover {
         align-items: center;
         padding: 0px;
         gap: 24px;
+        width: 343px;
+        height: 528px;
     }
     
     button {
