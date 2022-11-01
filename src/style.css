@@ -251,9 +251,42 @@ button:hover {
         width: 88px;
         height: 88px;
     }
+
+    .shareButton{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        right: 35px;
+        background: #FFFFFF;
+        border: 1px dashed #D0D5DD;
+        border-radius: 20px;
+    }
+    
+    .shareContent {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+        position: absolute;
+        left: 15%;
+        right: 15%;
+        top: 15%;
+        bottom: 15%;
+        border-radius: 12px;
+    }
+    
+    .share {
+        width: 20px;
+        height: 20px;
+    }
     
     .icon {
-        display: none;
+        position: absolute;
+        left: 17.67%;
+        right: 17.67%;
+        top: 20.83%;
+        bottom: 20.83%;
     }
     
     
