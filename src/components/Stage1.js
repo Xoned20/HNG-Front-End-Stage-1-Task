@@ -38,7 +38,7 @@ function Stage1() {
 
                     {/* links section */}
                     <section className="links">
-                        <button id="btn__zuri"><a href="">Twitter Link</a></button>
+                        <button id="btn__zuri"><a href="https://twitter.com/Xoneeed">Twitter Link</a></button>
                         <button><a href="https://training.zuri.team/">Zuri Team</a></button>
                         <button id="books"><a href="http://books.zuri.team/">Zuri Books</a></button>
                         <button id="book__python"><a href="https://books.zuri.team/python-for-beginners?ref_id=Xoned">Python Books</a></button>
