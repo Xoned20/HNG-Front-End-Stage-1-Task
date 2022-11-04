@@ -1,13 +1,11 @@
 import React from "react"
+import Home from "./components/Home"
 import "./style.css"
-import Stage1 from "./components/Stage1"
-import Footer from "./components/Footer"
 
 function App(){
     return(
         <div>
-            <Stage1/>
-            <Footer/>
+            <Home />
         </div>
     )
 }
