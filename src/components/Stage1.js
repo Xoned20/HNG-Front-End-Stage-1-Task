@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import profileImg from "../images/profile__img.png"
 import Slack from "../images/slack.png"
 import Github from "../images/github.png"
@@ -44,7 +45,7 @@ function Stage1() {
                         <button id="book__python"><a href="https://books.zuri.team/python-for-beginners?ref_id=Xoned">Python Books</a></button>
                         <button id="pitch"><a href="https://background.zuri.team/">Background Check for Coders</a></button>
                         <button id="book__design"><a href="https://books.zuri.team/design-rules">Design Books</a></button>
-                        <button id="contact"><a href="">Contact Me</a></button>
+                        <button id="contact"><Link to='/contact'>Contact Me</Link></button>
                     </section>
                     {/* links section ends */}
                 </div>

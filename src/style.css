@@ -765,8 +765,6 @@ form {
         padding: 64px 0px;
         gap: 48px;
         background: #FFFFFF;
-        width: 375px;
-        height: 884px;
     }
     
     .header__container{
@@ -817,8 +815,6 @@ form {
         align-items: flex-start;
         padding: 0px 16px;
         gap: 48px;
-        width: 375px;
-        height: 592px;
     }
     
     .form__content {
@@ -827,8 +823,6 @@ form {
         align-items: center;
         padding: 0px;
         gap: 48px;
-        width: 343px;
-        height: 592px;
     }
 
     form {
@@ -837,10 +831,8 @@ form {
         align-items: flex-start;
         padding: 0px;
         gap: 32px;
-        width: 343px;
-        height: 592px;
     }
-    
+
     .form__field {
         display: flex;
         flex-direction: column;
@@ -849,6 +841,16 @@ form {
         gap: 24px;
         width: 343px;
         height: 512px;
+    }
+
+    .form__nameMob {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+        width: 343px;
+        height: 70px;
     }
     
     .firstname > label {
@@ -961,6 +963,10 @@ form {
         gap: 6px;
         width: 343px;
         height: 70px;
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
     }
     
     .email > label {
@@ -1008,6 +1014,10 @@ form {
         gap: 6px;
         width: 343px;
         height: 158px;
+        flex: none;
+        order: 3;
+        align-self: stretch;
+        flex-grow: 0;
     }
     
     .message > label {
@@ -1055,6 +1065,10 @@ form {
         gap: 12px;
         width: 343px;
         height: 24px;
+        flex: none;
+        order: 4;
+        align-self: stretch;
+        flex-grow: 0;
     }
     
     .form__checkbox > input {
