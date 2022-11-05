@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from './Footer'
+import { enableButton } from '../index'
 
 const Contact = () => {
   return (
@@ -39,11 +40,11 @@ const Contact = () => {
                                             <textarea type="text" id="message" name="message" placeholder="Send me a message and I'll reply you as soon as possible..." />
                                         </div>
                                         <div className='form__checkbox'>
-                                            <input type="checkbox" id="agree" name="agree" value="agree" />
-                                            <label for="agree">You agree to providing your data to Xoned who may contact you.</label>
+                                            <input type="checkbox" id="check" name="check" value="check" onClick={enableButton} />
+                                            <label for="agree">You agree to providing your data to Jephery Cyril who may contact you.</label>
                                         </div>
                                     </div>
-                                    <button type='submit' id='btn__submit'>Send message</button>
+                                    <button type='submit' disabled="true" id='btn__submit'>Send message</button>
                                 </form>  
                             </div>
                         </div>

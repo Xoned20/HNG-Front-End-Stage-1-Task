@@ -12,3 +12,14 @@ root.render(
         </BrowserRouter>
     </React.StrictMode>
 )
+
+export function enableButton() {
+    const check = document.getElementById("check");
+    const btn = document.getElementById("btn__submit")
+
+    btn.disabled = "true"
+
+    if (check.checked) {
+        btn.removeAttribute("disabled");
+    }
+}
