@@ -33,11 +33,11 @@ const Contact = () => {
                                         </div>
                                         <div className='email'>
                                             <label for="email">Email</label>
-                                            <input type="email" id="email" name="email" placeholder='yourname@email.com' />
+                                            <input type="email" id="email" name="email" required placeholder='yourname@email.com' />
                                         </div>
                                         <div className='message'>
                                             <label for="message">Message</label>
-                                            <textarea type="text" id="message" name="message" placeholder="Send me a message and I'll reply you as soon as possible..." />
+                                            <textarea type="text" id="message" name="message" required placeholder="Send me a message and I'll reply you as soon as possible..." />
                                         </div>
                                         <div className='form__checkbox'>
                                             <input type="checkbox" id="check" name="check" value="check" onClick={enableButton} />
