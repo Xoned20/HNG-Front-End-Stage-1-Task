@@ -41,7 +41,7 @@ const Contact = () => {
                                         </div>
                                         <div className='form__checkbox'>
                                             <input type="checkbox" id="check" name="check" value="check" onClick={enableButton} />
-                                            <label for="agree">You agree to providing your data to Jephery Cyril who may contact you.</label>
+                                            <label for="agree">You agree to providing your data to JEPHERY CYRIL who may contact you.</label>
                                         </div>
                                     </div>
                                     <button type='submit' disabled="true" id='btn__submit'>Send message</button>
