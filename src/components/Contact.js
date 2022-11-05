@@ -21,7 +21,7 @@ const Contact = () => {
                             <div className='form_content'>
                                 <form>
                                     <div className='form__field'>
-                                        <div className='form__name form__nameMob'>
+                                        <div className='form__name'>
                                             <div className='firstname'>
                                                 <label for="first_name">First name</label>
                                                 <input type="text" id="first_name" name="first_name" placeholder='Enter your first name' />

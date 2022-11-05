@@ -851,6 +851,8 @@ form {
         align-items: flex-start;
         padding: 0px 16px;
         gap: 48px;
+        width: 375px;
+        height: 592px;
     }
     
     .form__content {
@@ -859,6 +861,8 @@ form {
         align-items: center;
         padding: 0px;
         gap: 48px;
+        width: 343px;
+        height: 592px;
     }
 
     form {
@@ -867,6 +871,8 @@ form {
         align-items: flex-start;
         padding: 0px;
         gap: 32px;
+        width: 343px;
+        height: 592px;
     }
 
     .form__field {
@@ -879,14 +885,14 @@ form {
         height: 512px;
     }
 
-    .form__nameMob {
+    .form__name {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding: 0px;
         gap: 24px;
         width: 343px;
-        height: 70px;
+        height: 160px;
     }
     
     .firstname > label {
