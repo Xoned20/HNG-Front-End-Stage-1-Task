@@ -204,6 +204,28 @@ a {
     border-top: 1px solid #EAECF0;
 }
 
+.footer__content > p {
+    width: 832.28px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #667085;
+}
+
+#zuri__it {
+    width: 187.59px;
+    height: 32px;
+}
+
+#i4g {
+    width: 132.13px;
+    height: 32px;
+}
+
 .contact__page {
     display: flex;
     flex-direction: column;
@@ -569,15 +591,21 @@ form {
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 1024px) {
-    
+@media screen and (max-width: 480px) {
+    html.body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
     .stage1 {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 64px 0px 32px;
         gap: 24px;
-        height: 892px;
     }
     
     .main__section {
@@ -586,7 +614,7 @@ form {
         align-items: center;
         padding: 0px 16px;
         gap: 32px;
-        height: 700px;
+        height: 848px;
     }
     
     .profile {
@@ -667,7 +695,6 @@ form {
         padding: 0px;
         gap: 24px;
         width: 343px;
-        height: 528px;
     }
 
     #btn__zuri #books #book__python #pitch #book_design{
@@ -739,7 +766,6 @@ form {
         align-items: center;
         padding: 0px 16px;
         gap: 32px;
-        width: 375px;
         height: 24px;
     }
     
@@ -747,7 +773,6 @@ form {
         flex-direction: row;
         align-items: center;
         padding: 0px;
-        width: 343px;
         height: 24px;
     }
     
@@ -792,6 +817,31 @@ form {
         width: 343px;
         height: 132px;
         border-top: 1px solid #EAECF0;
+    }
+
+    .footer__content > p {
+        width: 213px;
+        height: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #667085;
+    }
+    
+    #zuri__it {
+        width: 140.69px;
+        height: 24px;
+    }
+    
+    #i4g {
+        width: 99.1px;
+        height: 24px;
+    }
+
+    .contact__contain{
+        padding: 0px 0px;
     }
 
     .contact__page {

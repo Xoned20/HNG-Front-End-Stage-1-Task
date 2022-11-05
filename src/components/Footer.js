@@ -10,11 +10,13 @@ function Footer() {
                     <img 
                     src={Zuri}
                     alt=""
+                    id="zuri__it"
                     />
                     <p>HNG Internship 9 Frontend Task</p>
                     <img 
                     src={I4G}
                     alt=""
+                    id="i4g"
                     />
                 </div>
             </div>
